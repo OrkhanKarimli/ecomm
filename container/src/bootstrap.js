@@ -1,2 +1,3 @@
 import 'products/ProductsIndex';
-import 'cart/CartIndex';
+import {mount} from 'cart/CartIndex';
+mount(document.querySelector('#my-cart'));

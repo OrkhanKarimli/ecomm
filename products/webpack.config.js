@@ -14,7 +14,7 @@ module.exports={
           },
           shared:{
             faker:{
-              singelton:true
+              singleton:true
             }
           },
         }),
